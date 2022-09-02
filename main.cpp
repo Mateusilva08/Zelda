@@ -7,10 +7,20 @@ using std::cout;
 int main( )
 {
     cout << "Usando Sword no main\n";
-    
+
 
     Sword royalGuardSword;
+
     royalGuardSword.print();
+
+    royalGuardSword.decremento();
+
+    royalGuardSword.print();
+
+    royalGuardSword.decremento();
+
+    royalGuardSword.print();
+
 
     return 0;
 
